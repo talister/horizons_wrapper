@@ -76,3 +76,5 @@ targetname    datetime_str      datetime_jd       H    ...       RA_rate        
  (2020 SO) 2020-Oct-22 00:00         2459144.5  28.649 ... -0.8692216666666667  -0.04335933333333333 2020-10-22 00:00:00  0.8703024402987096
 
 ```
+
+This code is a part-port from the more full-featured version in NEOexchange; use of the optional `include_moon=True` won't work as it requires that extra code, which in turns requires pySLALIB which can be troublesome to install on some systems.
